@@ -1,0 +1,18 @@
+E:\C# file\LineControl\Build\LineControl.dll
+E:\C# file\LineControl\Build\LineControl.pdb
+E:\C# file\LineControl\StraightLine\obj\Debug\LineControl.csprojAssemblyReference.cache
+E:\C# file\LineControl\StraightLine\obj\Debug\LineControl.csproj.CoreCompileInputs.cache
+E:\C# file\LineControl\StraightLine\obj\Debug\LineControl.dll
+E:\C# file\LineControl\StraightLine\obj\Debug\LineControl.pdb
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\Build\LineControl.dll
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\Build\LineControl.pdb
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.dll
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.pdb
+C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csprojAssemblyReference.cache
+E:\毕业设计\code\s.ad_gp\Build\LineControl.dll
+E:\毕业设计\code\s.ad_gp\Build\LineControl.pdb
+E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csprojAssemblyReference.cache
+E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csproj.CoreCompileInputs.cache
+E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.dll
+E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.pdb

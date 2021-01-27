@@ -1,0 +1,5 @@
+bin\Debug\StraightLine.dll
+bin\Debug\StraightLine.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StraightLine.dll
+obj\Debug\StraightLine.pdb

@@ -1,0 +1,7 @@
+bin\Debug\LineControl.dll
+bin\Debug\LineControl.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LineControl.dll
+obj\Debug\LineControl.pdb
+..\Build\LineControl.dll
+..\Build\LineControl.pdb
