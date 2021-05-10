@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.文件FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,9 +50,9 @@
             this.帮助HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.数据文件格式说明ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tpResult = new System.Windows.Forms.TabPage();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer5 = new System.Windows.Forms.SplitContainer();
+            this.spcPro = new System.Windows.Forms.SplitContainer();
+            this.spcDraw = new System.Windows.Forms.SplitContainer();
+            this.spcRes = new System.Windows.Forms.SplitContainer();
             this.dgvHHat = new System.Windows.Forms.DataGridView();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -65,8 +65,8 @@
             this.catV = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.tpInput = new System.Windows.Forms.TabPage();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.spcMain = new System.Windows.Forms.SplitContainer();
+            this.spcInput = new System.Windows.Forms.SplitContainer();
             this.dgvKnow = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -98,31 +98,31 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             this.tpResult.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.Panel2.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
-            this.splitContainer5.Panel1.SuspendLayout();
-            this.splitContainer5.Panel2.SuspendLayout();
-            this.splitContainer5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcPro)).BeginInit();
+            this.spcPro.Panel1.SuspendLayout();
+            this.spcPro.Panel2.SuspendLayout();
+            this.spcPro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcDraw)).BeginInit();
+            this.spcDraw.Panel1.SuspendLayout();
+            this.spcDraw.Panel2.SuspendLayout();
+            this.spcDraw.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcRes)).BeginInit();
+            this.spcRes.Panel1.SuspendLayout();
+            this.spcRes.Panel2.SuspendLayout();
+            this.spcRes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHHat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvV)).BeginInit();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.catV)).BeginInit();
             this.tpInput.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcMain)).BeginInit();
+            this.spcMain.Panel1.SuspendLayout();
+            this.spcMain.Panel2.SuspendLayout();
+            this.spcMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcInput)).BeginInit();
+            this.spcInput.Panel1.SuspendLayout();
+            this.spcInput.Panel2.SuspendLayout();
+            this.spcInput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKnow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvObs)).BeginInit();
             this.tspDraw.SuspendLayout();
@@ -140,8 +140,7 @@
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1045, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1182, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -230,7 +229,7 @@
             this.粗差探测ToolStripMenuItem.Checked = true;
             this.粗差探测ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.粗差探测ToolStripMenuItem.Name = "粗差探测ToolStripMenuItem";
-            this.粗差探测ToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.粗差探测ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.粗差探测ToolStripMenuItem.Text = "粗差探测";
             this.粗差探测ToolStripMenuItem.Click += new System.EventHandler(this.粗差探测ToolStripMenuItem_Click);
             // 
@@ -239,14 +238,14 @@
             this.中间过程ToolStripMenuItem.Checked = true;
             this.中间过程ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.中间过程ToolStripMenuItem.Name = "中间过程ToolStripMenuItem";
-            this.中间过程ToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.中间过程ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.中间过程ToolStripMenuItem.Text = "中间过程";
             this.中间过程ToolStripMenuItem.Click += new System.EventHandler(this.中间过程ToolStripMenuItem_Click);
             // 
             // 出题模式ToolStripMenuItem
             // 
             this.出题模式ToolStripMenuItem.Name = "出题模式ToolStripMenuItem";
-            this.出题模式ToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.出题模式ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.出题模式ToolStripMenuItem.Text = "模拟网生成";
             this.出题模式ToolStripMenuItem.Click += new System.EventHandler(this.出题模式ToolStripMenuItem_Click);
             // 
@@ -267,75 +266,74 @@
             // 
             // tpResult
             // 
-            this.tpResult.Controls.Add(this.splitContainer3);
+            this.tpResult.Controls.Add(this.spcPro);
             this.tpResult.ImageIndex = 1;
             this.tpResult.Location = new System.Drawing.Point(4, 4);
             this.tpResult.Margin = new System.Windows.Forms.Padding(4);
             this.tpResult.Name = "tpResult";
             this.tpResult.Padding = new System.Windows.Forms.Padding(4);
-            this.tpResult.Size = new System.Drawing.Size(1037, 494);
+            this.tpResult.Size = new System.Drawing.Size(1174, 596);
             this.tpResult.TabIndex = 1;
             this.tpResult.Text = "平差成果";
             this.tpResult.UseVisualStyleBackColor = true;
             // 
-            // splitContainer3
+            // spcPro
             // 
-            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer3.Location = new System.Drawing.Point(4, 4);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer3.Name = "splitContainer3";
-            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.spcPro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spcPro.Location = new System.Drawing.Point(4, 4);
+            this.spcPro.Margin = new System.Windows.Forms.Padding(4);
+            this.spcPro.Name = "spcPro";
+            this.spcPro.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
-            // splitContainer3.Panel1
+            // spcPro.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.splitContainer4);
+            this.spcPro.Panel1.Controls.Add(this.spcDraw);
             // 
-            // splitContainer3.Panel2
+            // spcPro.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.txtResult);
-            this.splitContainer3.Size = new System.Drawing.Size(1029, 486);
-            this.splitContainer3.SplitterDistance = 385;
-            this.splitContainer3.SplitterWidth = 5;
-            this.splitContainer3.TabIndex = 1;
+            this.spcPro.Panel2.Controls.Add(this.txtResult);
+            this.spcPro.Size = new System.Drawing.Size(1166, 588);
+            this.spcPro.SplitterDistance = 464;
+            this.spcPro.SplitterWidth = 5;
+            this.spcPro.TabIndex = 1;
             // 
-            // splitContainer4
+            // spcDraw
             // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer4.Name = "splitContainer4";
+            this.spcDraw.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spcDraw.Location = new System.Drawing.Point(0, 0);
+            this.spcDraw.Margin = new System.Windows.Forms.Padding(4);
+            this.spcDraw.Name = "spcDraw";
             // 
-            // splitContainer4.Panel1
+            // spcDraw.Panel1
             // 
-            this.splitContainer4.Panel1.Controls.Add(this.splitContainer5);
-            this.splitContainer4.Panel1.Controls.Add(this.toolStrip1);
+            this.spcDraw.Panel1.Controls.Add(this.spcRes);
+            this.spcDraw.Panel1.Controls.Add(this.toolStrip1);
             // 
-            // splitContainer4.Panel2
+            // spcDraw.Panel2
             // 
-            this.splitContainer4.Panel2.Controls.Add(this.catV);
-            this.splitContainer4.Size = new System.Drawing.Size(1029, 385);
-            this.splitContainer4.SplitterDistance = 602;
-            this.splitContainer4.SplitterWidth = 5;
-            this.splitContainer4.TabIndex = 0;
+            this.spcDraw.Panel2.Controls.Add(this.catV);
+            this.spcDraw.Size = new System.Drawing.Size(1166, 464);
+            this.spcDraw.SplitterDistance = 681;
+            this.spcDraw.TabIndex = 0;
             // 
-            // splitContainer5
+            // spcRes
             // 
-            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer5.IsSplitterFixed = true;
-            this.splitContainer5.Location = new System.Drawing.Point(0, 38);
-            this.splitContainer5.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer5.Name = "splitContainer5";
+            this.spcRes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spcRes.IsSplitterFixed = true;
+            this.spcRes.Location = new System.Drawing.Point(0, 38);
+            this.spcRes.Margin = new System.Windows.Forms.Padding(4);
+            this.spcRes.Name = "spcRes";
             // 
-            // splitContainer5.Panel1
+            // spcRes.Panel1
             // 
-            this.splitContainer5.Panel1.Controls.Add(this.dgvHHat);
+            this.spcRes.Panel1.Controls.Add(this.dgvHHat);
             // 
-            // splitContainer5.Panel2
+            // spcRes.Panel2
             // 
-            this.splitContainer5.Panel2.Controls.Add(this.dgvV);
-            this.splitContainer5.Size = new System.Drawing.Size(602, 347);
-            this.splitContainer5.SplitterDistance = 298;
-            this.splitContainer5.TabIndex = 1;
+            this.spcRes.Panel2.Controls.Add(this.dgvV);
+            this.spcRes.Size = new System.Drawing.Size(681, 426);
+            this.spcRes.SplitterDistance = 336;
+            this.spcRes.TabIndex = 1;
             // 
             // dgvHHat
             // 
@@ -350,7 +348,7 @@
             this.dgvHHat.Name = "dgvHHat";
             this.dgvHHat.RowHeadersWidth = 51;
             this.dgvHHat.RowTemplate.Height = 23;
-            this.dgvHHat.Size = new System.Drawing.Size(298, 347);
+            this.dgvHHat.Size = new System.Drawing.Size(336, 426);
             this.dgvHHat.TabIndex = 0;
             // 
             // Column5
@@ -378,7 +376,7 @@
             this.dgvV.Name = "dgvV";
             this.dgvV.RowHeadersWidth = 51;
             this.dgvV.RowTemplate.Height = 23;
-            this.dgvV.Size = new System.Drawing.Size(300, 347);
+            this.dgvV.Size = new System.Drawing.Size(341, 426);
             this.dgvV.TabIndex = 0;
             // 
             // Column7
@@ -403,7 +401,7 @@
             this.txtbAfterSigma});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(602, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(681, 38);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -421,29 +419,29 @@
             // 
             // catV
             // 
-            chartArea1.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea1.IsSameFontSizeForAllAxes = true;
-            chartArea1.Name = "ChartArea1";
-            this.catV.ChartAreas.Add(chartArea1);
+            chartArea2.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea2.IsSameFontSizeForAllAxes = true;
+            chartArea2.Name = "ChartArea1";
+            this.catV.ChartAreas.Add(chartArea2);
             this.catV.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.catV.Legends.Add(legend1);
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.catV.Legends.Add(legend2);
             this.catV.Location = new System.Drawing.Point(0, 0);
             this.catV.Margin = new System.Windows.Forms.Padding(4);
             this.catV.Name = "catV";
             this.catV.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series2";
-            this.catV.Series.Add(series1);
-            this.catV.Size = new System.Drawing.Size(422, 385);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series2";
+            this.catV.Series.Add(series2);
+            this.catV.Size = new System.Drawing.Size(481, 464);
             this.catV.TabIndex = 0;
             this.catV.Text = "chart1";
-            title1.Name = "Title1";
-            title1.Text = "水准路线改正数折线图（单位：1e-3）";
-            this.catV.Titles.Add(title1);
+            title2.Name = "Title1";
+            title2.Text = "水准路线改正数折线图（单位：1e-3）";
+            this.catV.Titles.Add(title2);
             // 
             // txtResult
             // 
@@ -455,63 +453,63 @@
             this.txtResult.Margin = new System.Windows.Forms.Padding(4);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(1029, 96);
+            this.txtResult.Size = new System.Drawing.Size(1166, 119);
             this.txtResult.TabIndex = 0;
             this.txtResult.TextChanged += new System.EventHandler(this.txtResult_TextChanged);
             // 
             // tpInput
             // 
-            this.tpInput.Controls.Add(this.splitContainer1);
+            this.tpInput.Controls.Add(this.spcMain);
             this.tpInput.ImageIndex = 0;
             this.tpInput.Location = new System.Drawing.Point(4, 4);
             this.tpInput.Margin = new System.Windows.Forms.Padding(4);
             this.tpInput.Name = "tpInput";
             this.tpInput.Padding = new System.Windows.Forms.Padding(4);
-            this.tpInput.Size = new System.Drawing.Size(1037, 494);
+            this.tpInput.Size = new System.Drawing.Size(1174, 596);
             this.tpInput.TabIndex = 0;
             this.tpInput.Text = "数据输入";
             this.tpInput.UseVisualStyleBackColor = true;
             // 
-            // splitContainer1
+            // spcMain
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(4, 4);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer1.Name = "splitContainer1";
+            this.spcMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spcMain.Location = new System.Drawing.Point(4, 4);
+            this.spcMain.Margin = new System.Windows.Forms.Padding(4);
+            this.spcMain.Name = "spcMain";
             // 
-            // splitContainer1.Panel1
+            // spcMain.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            this.spcMain.Panel1.Controls.Add(this.spcInput);
             // 
-            // splitContainer1.Panel2
+            // spcMain.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.panelDraw);
-            this.splitContainer1.Panel2.Controls.Add(this.tspDraw);
-            this.splitContainer1.Panel2.Controls.Add(this.tspData);
-            this.splitContainer1.Size = new System.Drawing.Size(1029, 486);
-            this.splitContainer1.SplitterDistance = 351;
-            this.splitContainer1.SplitterWidth = 5;
-            this.splitContainer1.TabIndex = 0;
+            this.spcMain.Panel2.Controls.Add(this.panelDraw);
+            this.spcMain.Panel2.Controls.Add(this.tspDraw);
+            this.spcMain.Panel2.Controls.Add(this.tspData);
+            this.spcMain.Size = new System.Drawing.Size(1166, 588);
+            this.spcMain.SplitterDistance = 396;
+            this.spcMain.SplitterWidth = 5;
+            this.spcMain.TabIndex = 0;
             // 
-            // splitContainer2
+            // spcInput
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.spcInput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spcInput.Location = new System.Drawing.Point(0, 0);
+            this.spcInput.Margin = new System.Windows.Forms.Padding(4);
+            this.spcInput.Name = "spcInput";
+            this.spcInput.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
-            // splitContainer2.Panel1
+            // spcInput.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.dgvKnow);
+            this.spcInput.Panel1.Controls.Add(this.dgvKnow);
             // 
-            // splitContainer2.Panel2
+            // spcInput.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.dgvObs);
-            this.splitContainer2.Size = new System.Drawing.Size(351, 486);
-            this.splitContainer2.SplitterDistance = 144;
-            this.splitContainer2.SplitterWidth = 5;
-            this.splitContainer2.TabIndex = 0;
+            this.spcInput.Panel2.Controls.Add(this.dgvObs);
+            this.spcInput.Size = new System.Drawing.Size(396, 588);
+            this.spcInput.SplitterDistance = 174;
+            this.spcInput.SplitterWidth = 5;
+            this.spcInput.TabIndex = 0;
             // 
             // dgvKnow
             // 
@@ -527,7 +525,7 @@
             this.dgvKnow.Name = "dgvKnow";
             this.dgvKnow.RowHeadersWidth = 51;
             this.dgvKnow.RowTemplate.Height = 23;
-            this.dgvKnow.Size = new System.Drawing.Size(351, 144);
+            this.dgvKnow.Size = new System.Drawing.Size(396, 174);
             this.dgvKnow.TabIndex = 0;
             // 
             // Column1
@@ -558,7 +556,7 @@
             this.dgvObs.Name = "dgvObs";
             this.dgvObs.RowHeadersWidth = 51;
             this.dgvObs.RowTemplate.Height = 23;
-            this.dgvObs.Size = new System.Drawing.Size(351, 337);
+            this.dgvObs.Size = new System.Drawing.Size(396, 409);
             this.dgvObs.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn1
@@ -592,7 +590,7 @@
             this.panelDraw.Location = new System.Drawing.Point(0, 38);
             this.panelDraw.Margin = new System.Windows.Forms.Padding(4);
             this.panelDraw.Name = "panelDraw";
-            this.panelDraw.Size = new System.Drawing.Size(673, 410);
+            this.panelDraw.Size = new System.Drawing.Size(765, 512);
             this.panelDraw.TabIndex = 2;
             this.panelDraw.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelDraw_Click);
             // 
@@ -609,10 +607,10 @@
             this.tspE,
             this.tspClear});
             this.tspDraw.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.tspDraw.Location = new System.Drawing.Point(0, 448);
+            this.tspDraw.Location = new System.Drawing.Point(0, 550);
             this.tspDraw.Name = "tspDraw";
             this.tspDraw.Padding = new System.Windows.Forms.Padding(0);
-            this.tspDraw.Size = new System.Drawing.Size(673, 38);
+            this.tspDraw.Size = new System.Drawing.Size(765, 38);
             this.tspDraw.TabIndex = 1;
             this.tspDraw.Text = "toolStrip2";
             // 
@@ -690,7 +688,7 @@
             this.txtbSigma});
             this.tspData.Location = new System.Drawing.Point(0, 0);
             this.tspData.Name = "tspData";
-            this.tspData.Size = new System.Drawing.Size(673, 38);
+            this.tspData.Size = new System.Drawing.Size(765, 38);
             this.tspData.TabIndex = 0;
             this.tspData.Text = "toolStrip1";
             // 
@@ -768,7 +766,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1045, 523);
+            this.tabControl1.Size = new System.Drawing.Size(1182, 625);
             this.tabControl1.TabIndex = 2;
             // 
             // imageList1
@@ -782,45 +780,45 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 551);
+            this.ClientSize = new System.Drawing.Size(1182, 653);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(1061, 488);
+            this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "Form1";
             this.Text = "图形化水准网平差程序4.0";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tpResult.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            this.splitContainer3.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            this.splitContainer4.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            this.splitContainer5.Panel1.ResumeLayout(false);
-            this.splitContainer5.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
-            this.splitContainer5.ResumeLayout(false);
+            this.spcPro.Panel1.ResumeLayout(false);
+            this.spcPro.Panel2.ResumeLayout(false);
+            this.spcPro.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spcPro)).EndInit();
+            this.spcPro.ResumeLayout(false);
+            this.spcDraw.Panel1.ResumeLayout(false);
+            this.spcDraw.Panel2.ResumeLayout(false);
+            //((System.ComponentModel.ISupportInitialize)(this.spcDraw)).EndInit();
+            this.spcDraw.ResumeLayout(false);
+            this.spcRes.Panel1.ResumeLayout(false);
+            this.spcRes.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spcRes)).EndInit();
+            this.spcRes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHHat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvV)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.catV)).EndInit();
             this.tpInput.ResumeLayout(false);
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
+            this.spcMain.Panel1.ResumeLayout(false);
+            this.spcMain.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spcMain)).EndInit();
+            this.spcMain.ResumeLayout(false);
+            this.spcInput.Panel1.ResumeLayout(false);
+            this.spcInput.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spcInput)).EndInit();
+            this.spcInput.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKnow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvObs)).EndInit();
             this.tspDraw.ResumeLayout(false);
@@ -843,8 +841,8 @@
         private System.Windows.Forms.ToolStripMenuItem 数据文件格式说明ToolStripMenuItem;
         private System.Windows.Forms.TabPage tpResult;
         private System.Windows.Forms.TabPage tpInput;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.SplitContainer spcMain;
+        private System.Windows.Forms.SplitContainer spcInput;
         private System.Windows.Forms.DataGridView dgvKnow;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -879,9 +877,9 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.ToolStripMenuItem 水准网平差ToolStripMenuItem;
-        private System.Windows.Forms.SplitContainer splitContainer3;
-        private System.Windows.Forms.SplitContainer splitContainer4;
-        private System.Windows.Forms.SplitContainer splitContainer5;
+        private System.Windows.Forms.SplitContainer spcPro;
+        private System.Windows.Forms.SplitContainer spcDraw;
+        private System.Windows.Forms.SplitContainer spcRes;
         private System.Windows.Forms.DataGridView dgvHHat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;

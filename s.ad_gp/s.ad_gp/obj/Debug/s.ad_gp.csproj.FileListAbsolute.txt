@@ -34,3 +34,16 @@ C:\Users\Administrator.SG-20170901FOGD\Desktop\毕业设计\code\s.ad_gp\s.ad_gp
 E:\毕业设计\code\s.ad_gp\s.ad_gp\bin\Debug\LineControl.dll
 E:\毕业设计\code\s.ad_gp\s.ad_gp\bin\Debug\LineControl.pdb
 E:\毕业设计\code\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.csproj.CopyComplete
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\bin\Debug\s.ad_gp.exe.config
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\bin\Debug\s.ad_gp.exe
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\bin\Debug\s.ad_gp.pdb
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\bin\Debug\LineControl.dll
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\bin\Debug\LineControl.pdb
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.csprojAssemblyReference.cache
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.Form1.resources
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.Properties.Resources.resources
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.csproj.GenerateResource.cache
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.csproj.CoreCompileInputs.cache
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.csproj.CopyComplete
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.exe
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\s.ad_gp\obj\Debug\s.ad_gp.pdb

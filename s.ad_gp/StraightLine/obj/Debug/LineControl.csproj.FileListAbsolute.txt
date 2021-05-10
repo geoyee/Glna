@@ -16,3 +16,8 @@ E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csprojAssemblyRe
 E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.csproj.CoreCompileInputs.cache
 E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.dll
 E:\毕业设计\code\s.ad_gp\StraightLine\obj\Debug\LineControl.pdb
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\Build\LineControl.dll
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\Build\LineControl.pdb
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\StraightLine\obj\Debug\LineControl.csproj.CoreCompileInputs.cache
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\StraightLine\obj\Debug\LineControl.dll
+E:\MyData\毕业设计\code\git\g-lna\s.ad_gp\StraightLine\obj\Debug\LineControl.pdb

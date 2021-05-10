@@ -14,6 +14,13 @@ namespace s.ad_gp
         public Form1()
         {
             InitializeComponent();
+
+            //划分初始化
+            spcMain.SplitterDistance = spcMain.Width / 3;  //1/3用于显示数字
+            spcInput.SplitterDistance = spcInput.Width / 2;  //平分
+            spcPro.SplitterDistance = spcPro.Height * 3 / 4;  //1/4用于显示中间过程
+            spcDraw.SplitterDistance = spcDraw.Width * 2 / 3;  //1/3用于显示表格
+            spcRes.SplitterDistance = spcRes.Width / 2;  //结果区平分
         }
 
         LevelingNetwork LN;
@@ -528,12 +535,12 @@ namespace s.ad_gp
             if (中间过程ToolStripMenuItem.Checked == true)
             {
                 中间过程ToolStripMenuItem.Checked = false;
-                splitContainer3.Panel2Collapsed = true;  //折叠
+                spcPro.Panel2Collapsed = true;  //折叠
             }
             else
             {
                 中间过程ToolStripMenuItem.Checked = true;
-                splitContainer3.Panel2Collapsed = false;
+                spcPro.Panel2Collapsed = false;
             }
         }
 
